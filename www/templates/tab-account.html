@@ -1,0 +1,25 @@
+<ion-view view-title="Setup yuks">
+
+
+  <ion-content>
+
+    <ion-list>
+    <ion-toggle  ng-model="settings.enableFriends">
+        Enable Apa Aja
+    </ion-toggle>
+    </ion-list>
+
+    <ion-slide-box>
+      <ion-slide>
+        <div class="box blue">
+          <button ng-click="nextSlide()">Next slide!</button>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <div class="box red">
+          Slide 2!
+        </div>
+      </ion-slide>
+    </ion-slide-box>
+  </ion-content>
+</ion-view>

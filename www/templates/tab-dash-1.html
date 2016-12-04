@@ -1,0 +1,39 @@
+<ion-view view-title="Menu Kedua">
+  <ion-content scroll="true">
+    <!-- <ion-slides options="data.sliderOptions" slider="data.sliderDelegate"> -->
+    <ion-slide-box show-pager="false">
+      <ion-slide>
+        <div class="box blue">
+          <button ng-click="nextSlide()">Next slide!</button>
+        </div>
+      </ion-slide>
+      <ion-slide>
+        <content scroll="true">
+          <div class="card list">
+            <div class="item item-divider">
+              Lanjutkan
+            </div>
+            <div class="item item-text-wrap arabic">
+              {{ayat}}
+            </div>
+            <div class="item item-divider">
+              <p>Qs {{surah_num}} : {{ayat_num}}</p>
+            </div>
+          </div>
+        </content>
+      </ion-slide>
+    </ion-slide-box>
+
+  </ion-content>
+  <ion-footer-bar align-title="left">
+    <input class="full-width" type="text" placeholder="Which surah you need to repeat?" ng-model="userName">
+    <div ng-click="onClickEja()" class="btn button-positive float-button no-padding">
+      <span class="height-fix">
+    	   		<a class="content">
+    	    		Next
+    	   		</a>
+    	  	</span>
+    </div>
+
+  </ion-footer-bar>
+</ion-view>

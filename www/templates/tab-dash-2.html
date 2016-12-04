@@ -1,0 +1,36 @@
+<ion-view view-title="Menu Kedua">
+    <ion-scroll>
+      <ion-slide-box>
+        <ion-slide>
+          <img style="width: 100%" src="http://upload.wikimedia.org/wikipedia/commons/7/79/2001_BMW_Z3_Sideview_Topdown_Topaz_Blue_2.5i.jpg">
+        </ion-slide>
+        <ion-slide>
+          <img style="width: 100%" src="http://upload.wikimedia.org/wikipedia/commons/2/2e/BMW_Z3_1.9L_1998.jpg">
+        </ion-slide>
+        <ion-slide>
+          <img style="width: 100%" src="http://www.bmwblog.com/wp-content/uploads/bmw-z3-black.jpg">
+        </ion-slide>
+      </ion-slide-box>
+      <div class="bar bar-dark">
+        <h1 class="title">Feed</h1>
+      </div>
+    </ion-scroll>
+      <ion-scroll style="height: 500px">
+        <ion-list>
+          <ion-item>
+            <input class="full-width" type="text" placeholder="Which surah you need to repeat?" ng-model="userName">
+          </ion-item>
+        </ion-list>
+      </ion-scroll>
+  <ion-footer-bar align-title="left">
+
+    <div ng-click="onClickEja()" class="btn button-positive float-button no-padding">
+      <span class="height-fix">
+    	   		<a class="content">
+    	    		Next
+    	   		</a>
+    	  	</span>
+    </div>
+
+  </ion-footer-bar>
+</ion-view>

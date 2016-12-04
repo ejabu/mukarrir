@@ -1,0 +1,11 @@
+<ion-modal-view>
+      <ion-header-bar>
+         <h1 class = "title">Modal Title</h1>
+      </ion-header-bar>
+
+      <ion-content>
+          <ion-radio ng-change="setLevelText()" ng-click = "closeModal()" ng-model="data.choice" ng-value="'juz'">Filter by Juz</ion-radio>
+          <ion-radio ng-change="setLevelText()" ng-click = "closeModal()" ng-model="data.choice" ng-value="'surah'">Filter by Surah</ion-radio>
+          <ion-radio ng-change="setLevelText()" ng-click = "closeModal()" ng-model="data.choice" ng-value="'page'">Filter by Page</ion-radio>
+      </ion-content>
+   </ion-modal-view>
